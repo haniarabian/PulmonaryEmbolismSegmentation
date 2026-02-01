@@ -103,7 +103,9 @@ Step 3: Upload to Google Drive
   The code accesses these files via Google Drive, so it is important to ensure the folder structure is correct.
 
 Step 4: Running the Model
-  To run the model, execute the following script to run the model:
-  Training_process.py
+  To run the model, open the following script in google colab to run the model:
+  train_and_test_process.py
   
 
+# References and Acknowledgments
+We would like to acknowledge the authors of the original open-source code that was adapted for this study. Their work laid the foundation for our model and contributed to the success of this research.
