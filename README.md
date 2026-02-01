@@ -64,16 +64,16 @@ This repository contains the MATLAB-based preprocessing pipeline used in this st
 
 # NIfTI-to-PNG Conversion Scripts (Python / Jupyter):
 To facilitate compatibility with 2D deep learning pipelines, NIfTI-formatted images and corresponding segmentation masks were converted into PNG slices using a modular Python-based workflow. Script overview:
-  1. transfer_image_dataset.ipynb
+1. transfer_image_dataset.py
     1)	Converts volumetric CTPA images from NIfTI (.nii) format to 2D PNG slices.
     2)	Requires user-defined input and output directory paths.
     3)	Each axial slice is saved as a separate PNG image while preserving slice ordering.
     4)	Intensity values are normalized to ensure consistent visualization across slices.
-  2. transfer_annot_dataset.ipynb
+2. transfer_annot_dataset.py
     1)	Converts corresponding segmentation masks from NIfTI format to PNG.
     2)	Uses identical slice indexing to ensure pixel-wise alignment with the converted images.
     3)	Binary masks are preserved without interpolation to avoid label corruption.
-  3. transfer_to_png.py
+3. transfer_to_png.py
     1)	Serves as a wrapper script that orchestrates the full conversion pipeline.
     2)	Imports and executes the core conversion functions defined in the two notebooks/scripts above.
     3)	Ensures synchronized conversion of images and masks.
