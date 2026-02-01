@@ -88,4 +88,22 @@ This archive contains:
   2) Corresponding segmentation masks
 
 
+# Instructions for Setup and Execution:
+Follow the instructions below to set up the pipeline and run the model.
+
+Step 1: Download the Original Network Code
+  First, download the original network code from the following GitHub repository:https://github.com/Adversarian/attention-cnn-MS-segmentation
+  This code contains the base framework for training the model.
+
+Step 2: Replace Files in the Downloaded Code
+  Once you have downloaded the original code, navigate to the respective folders and replace the files with the modified files you downloaded from this repository (attention-cnn-MS-segmentation).
+
+Step 3: Upload to Google Drive
+  After replacing the necessary files, upload the entire directory to your Google Drive.
+  The code accesses these files via Google Drive, so it is important to ensure the folder structure is correct.
+
+Step 4: Running the Model
+  To run the model, execute the following script to run the model:
+  Training_process.py
+  
 
