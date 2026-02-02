@@ -3,8 +3,8 @@
 This repository provides the preprocessing, data preparation, and conversion pipeline used in our study on automatic pulmonary embolism (PE) detection and segmentation from CTPA images. The implementation follows a hybrid MATLAB–Python workflow, reflecting the exact pipeline used in the manuscript. Data preprocessing, augmentation, and selected evaluation procedures were implemented in MATLAB, whereas model training, inference, and performance evaluation were conducted in Python. The core backbone network was adapted from an existing open-source implementation, which is properly cited in the manuscript. For these components, we provide explicit references and links to the original repositories rather than re-uploading unchanged source code, in accordance with best practices for open-source reuse. 
 
 # Open access datasets:
-  CAD-PE --> https://dx.doi.org/10.21227/9bw7-6823
-  FUMPE --> https://doi.org/10.6084/m9.figshare.c.4107803.v1
+  1. CAD-PE --> https://dx.doi.org/10.21227/9bw7-6823
+  2. FUMPE --> https://doi.org/10.6084/m9.figshare.c.4107803.v1
 
 # Pipeline Overview:
 The preprocessing pipeline consists of four main stages:
